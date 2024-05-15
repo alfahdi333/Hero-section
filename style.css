@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lexend+Mega:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background: #3A3535;
+}
+
+
+.logo{
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+nav a:hover{
+    color: #F17AD4;
+}
+
+.logo{
+
+    color: white;
+    font-weight: bold;
+    padding: 14px;
+
+}
+
+nav a{
+
+    color: rgb(255, 255, 255);
+    padding: 11px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 10px;
+    
+
+}
+
+.signUp {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 10px 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.login{
+
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #F17AD4; 
+    color: #ffffff;
+    background-color: #3A3535;
+    border-radius: 40px;
+    padding: 10px 20px;
+    margin-right: 15px;
+    cursor: pointer;
+
+
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;;
+    padding: calc((100vw -1300px)/2);
+
+}
+
+.colume-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 2rem;
+
+}
+
+.colume-left h1{
+    font-family: "Montserrat", sans-serif;
+    margin: bottom 20px ;
+    font-size: 4rem;
+    padding: 10px;
+    margin-bottom: 0%;
+    color: white;
+}
+
+.colume-left p{
+    margin-bottom: 1rem;
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 10px;
+    color: #F17AD4;
+}
+
+button{
+
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    font-family: "Lexend Mega", sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 40px;
+    margin-top: 1.8%;
+
+}
+
+button:hover{
+    background:#F17AD4;
+    color: rgb(255, 255, 255);
+}
+
+.colume-righ{
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0rem 3rem;
+
+}
+
+.hero-img{
+    margin-top: 3rem;
+    width: 100%;
+    height: 90%;
+}
+
+@media screen and (max-width:860px){
+    .hero-container{
+        grid-template-columns: 1fr;
+    }
+
+    .hero-img{
+        width: 70%;
+
+    }
+    
+}
